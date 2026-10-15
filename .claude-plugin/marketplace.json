@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "royaletools",
+  "description": "The RoyaleTools plugin for Claude: Clash Royale decks, players, clans, upgrades, and practice through royaletools.com.",
+  "owner": {
+    "name": "Dcmat",
+    "url": "https://www.royaletools.com/about/dcmat"
+  },
+  "plugins": [
+    {
+      "name": "royaletools",
+      "source": "./",
+      "description": "Use RoyaleTools Clash Royale tools for decks, players, clans, upgrades, and practice.",
+      "category": "utilities",
+      "tags": [
+        "clash-royale",
+        "gaming",
+        "decks"
+      ]
+    }
+  ]
+}

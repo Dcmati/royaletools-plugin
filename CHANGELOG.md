@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Added Claude plugin manifests, `.claude-plugin/plugin.json` and `.claude-plugin/marketplace.json`, so the same skills install in Claude. The skills are unchanged.
+- README.md and TESTING.md now cover installing in Claude as well as Grok Bot.
+
 ## 0.1.2 (Grok Bot edition, unreleased)
 
 First release from this repository. It has the same nine skills, website contract, and route catalog as RoyaleTools 0.1.2 for the OpenAI plugin directory, adapted for Grok Bot and other hosts that read the Cursor plugin format.

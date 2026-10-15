@@ -4,7 +4,7 @@ No RoyaleTools account and no test credentials are needed. Player Tags are publi
 
 ## Setup
 
-1. Install RoyaleTools. In Grok Bot, open **Connect apps**, find RoyaleTools, and choose **Add**.
+1. Install RoyaleTools. In Grok Bot, open **Connect apps**, find RoyaleTools, and choose **Add**. In Claude, add the marketplace `Dcmati/royaletools-plugin` from **Customize > Plugins**, or run `/plugin install royaletools --marketplace Dcmati/royaletools-plugin` in Claude Code.
 2. Ask a Bot, or another agent that can browse the web, the prompts below. If the plugin's skills are not picked up automatically, mention the plugin with `@`, or reference one of its skills with `/` if the composer lists it.
 
 Results change as RoyaleTools samples new battles. Check the behavior described in each case rather than specific decks or players.

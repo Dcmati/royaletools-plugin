@@ -4,7 +4,7 @@ Skills for using [RoyaleTools](https://www.royaletools.com), a Clash Royale comp
 
 RoyaleTools is a fan-made Clash Royale tools platform by Dcmat. This content is unofficial and not endorsed by Supercell.
 
-This is a skills-only plugin. It contains instructions, not a service: no MCP server, backend, API key, or account connection. The agent works through the RoyaleTools website with the browser and web access it already has. In Grok Bot, that is the browser on the Bot's cloud computer.
+This is a skills-only plugin. It contains instructions, not a service: no MCP server, backend, API key, or account connection. The agent works through the RoyaleTools website with the browser and web access it already has, such as the browser on a Grok Bot's cloud computer, Claude in Chrome, or the browser in Claude Cowork.
 
 ## Skills
 
@@ -26,11 +26,21 @@ This is a skills-only plugin. It contains instructions, not a service: no MCP se
 - Improve my eight-card deck while keeping my favorite cards.
 - Help me plan my next upgrades and Clan Wars decks.
 
+## Install
+
+- **Grok Bot:** open **Connect apps**, find RoyaleTools, and choose **Add**.
+- **Claude apps (claude.ai, the desktop app, and Cowork):** open **Customize > Plugins**, choose **Add > Add marketplace**, enter `Dcmati/royaletools-plugin`, and add RoyaleTools.
+- **Claude Code** 2.1.275 or later: run this in a session.
+
+```
+/plugin install royaletools --marketplace Dcmati/royaletools-plugin
+```
+
 ## Requirements and limits
 
 - Public lookups need no RoyaleTools account. Collection-based answers need a public Player Tag. The plugin never asks for a Supercell login or game password.
-- Many results load in the page with JavaScript, so they need a browser that can run the page and operate its controls. With only a page reader, the plugin gives the link and the steps to finish instead of claiming a result.
-- Saved decks, Saved Tags, entered resource balances, and many personal bests stay in the browser where they were saved. RoyaleTools does not sync them between devices. In Grok Bot, the Bot's cloud browser is separate from your own browser and phone, so it cannot see decks you saved there, and anything the Bot saves stays in its browser.
+- Many results load in the page with JavaScript, so they need a browser that can run the page and operate its controls. With only a page reader or web search, the plugin gives the link and the steps to finish instead of claiming a result.
+- Saved decks, Saved Tags, entered resource balances, and many personal bests stay in the browser where they were saved. RoyaleTools does not sync them between devices. In Grok Bot, the Bot's cloud browser is separate from your own browser and phone, so it cannot see decks you saved there, and anything the Bot saves stays in its browser. Claude Cowork's built-in browser is separate in the same way. Claude in Chrome works in your own Chrome, so it sees what you saved there.
 - The Merge Tactics builder and stats come from a MergeTactics.gg embed. Opening it sends a normal browser request to MergeTactics.gg, which includes the public Player Tag for stats. If the agent cannot operate the embed, it gives you the page link.
 - Some websites block traffic from cloud computers. If RoyaleTools shows a verification step, the agent hands it to you.
 
