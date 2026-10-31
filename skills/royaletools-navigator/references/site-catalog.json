@@ -4,7 +4,8 @@
     "app/site-search-index.ts",
     "app/site-navigation-data.ts",
     "app/minigames/minigame-config.ts",
-    "app/puzzles/puzzle-config.ts"
+    "app/puzzles/puzzle-config.ts",
+    "app/giveaways/giveaways-links.ts"
   ],
   "note": "Navigation coverage, not live results. Discover published guides and current modes on the website. Normal browser visits may trigger the website's existing requests.",
   "entries": [
@@ -101,6 +102,17 @@
       "interaction": "website-results"
     },
     {
+      "title": "Collection Level Rewards",
+      "href": "/collection-level-rewards",
+      "section": "Tools",
+      "description": "Every Collection Level reward and your next one.",
+      "keywords": [
+        "Collection Level rewards list and next milestone"
+      ],
+      "workflow": "clash-royale-progression",
+      "interaction": "website-results"
+    },
+    {
       "title": "Community Tools",
       "href": "/community",
       "section": "Community",
@@ -128,6 +140,17 @@
       "keywords": [],
       "workflow": "clash-royale-community",
       "interaction": "read-and-user-submit"
+    },
+    {
+      "title": "Balance Planner",
+      "href": "/community/balance-planner",
+      "section": "Community",
+      "description": "",
+      "keywords": [
+        "Propose your own Clash Royale buffs and nerfs"
+      ],
+      "workflow": "clash-royale-community",
+      "interaction": "personal-editor"
     },
     {
       "title": "Card Bracket",
@@ -245,6 +268,22 @@
       ],
       "workflow": "clash-royale-learn-and-practice",
       "interaction": "page-reading"
+    },
+    {
+      "title": "Giveaways",
+      "href": "/giveaways?from=plugin",
+      "section": "Community",
+      "description": "Join giveaways, solve quick puzzles and earn free game rewards.",
+      "keywords": [
+        "giveaway",
+        "free rewards",
+        "reward links",
+        "emotes",
+        "prizes",
+        "puzzles"
+      ],
+      "workflow": "clash-royale-community",
+      "interaction": "cross-site-handoff"
     },
     {
       "title": "Head-to-Head Tracker",
@@ -486,6 +525,18 @@
       "interaction": "user-play"
     },
     {
+      "title": "Stat Showdown",
+      "href": "/minigames/stat-showdown",
+      "section": "Minigames",
+      "description": "Is the next card's stat higher or lower? Hidden stats included.",
+      "keywords": [
+        "minigame",
+        "Compare level 11 stats, including the hidden ones the card screen never shows."
+      ],
+      "workflow": "clash-royale-learn-and-practice",
+      "interaction": "user-play"
+    },
+    {
       "title": "Word Royale",
       "href": "/minigames/word-royale",
       "section": "Minigames",
@@ -566,7 +617,7 @@
       "title": "All Puzzles",
       "href": "/puzzles",
       "section": "Puzzles",
-      "description": "Practice elixir, cycle tracking, and reaction speed.",
+      "description": "Practice elixir, cycle tracking, reaction speed, and spell damage.",
       "keywords": [],
       "workflow": "clash-royale-learn-and-practice",
       "interaction": "page-reading"
@@ -615,6 +666,18 @@
       "keywords": [
         "puzzle",
         "React to Dart Goblin at the bridge before the Princess Tower takes damage."
+      ],
+      "workflow": "clash-royale-learn-and-practice",
+      "interaction": "user-play"
+    },
+    {
+      "title": "Spell Check",
+      "href": "/puzzles/spell-check",
+      "section": "Puzzles",
+      "description": "Level 11 interaction trivia: does the spell take the tower, or the troop?",
+      "keywords": [
+        "puzzle",
+        "Call real level 11 interactions: towers, troops, shields and combos."
       ],
       "workflow": "clash-royale-learn-and-practice",
       "interaction": "user-play"

@@ -20,6 +20,7 @@ Use the [site catalog](../royaletools-navigator/references/site-catalog.json), `
 - Reaction practice: Log Reaction.
 - Recognizing cards: the visual, clue, name, or comparison minigames.
 - Remembering decks or cards: Deck Recall or Flash Memory.
+- Card stats and spell interactions: Stat Showdown, or the Spell Check puzzle at `/puzzles/spell-check`.
 
 Read the activity's visible instructions and describe what the user should practice. Open the exact activity for the user to play. Do not automate a timed round, consume limited attempts without the user's intent, or register/submit an AI-generated score as their achievement. Personal bests and saved attempts can be local to this browser. Games leaderboard registration is a separate flow from public player lookup.
 

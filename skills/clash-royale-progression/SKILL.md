@@ -13,6 +13,10 @@ For a specific deck or card plan, import the supplied Clash Royale/RoyaleTools d
 
 Use the actual displayed resource requirements. Explain permanent owned levels separately from temporary seasonal battle levels when the page distinguishes them. Do not infer partial Evolution Shard ownership or hidden Hero currency from public data.
 
+## Collection Level rewards
+
+For questions about Collection Level milestone rewards, open `/collection-level-rewards` to list every reward from Level 20 to 2,500, or `/collection-level-rewards?tag={tag}` to show which milestones the player's level has reached and the next reward. Reached only means the level is at or above a milestone; the page cannot tell whether a reward was collected in game.
+
 ## Entered resources
 
 Gold, Gems, Wild Cards, Wild Shards, Hero Coins, and banked per-card Evolution Shards are optional player-entered values saved in that browser for the selected tag. Request only balances that the affordability question needs. Enter them through the UI only when the user asks you to use/save those values. Verify the correct tag and the `Your resources` setting.

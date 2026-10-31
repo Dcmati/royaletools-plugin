@@ -15,7 +15,7 @@ Help the user accomplish their goal through the existing public website at https
 | Inspect a public player, Daily Plan, or clan activity | `clash-royale-players-and-clans` |
 | Calculate upgrades or work with saved decks and entered resources | `clash-royale-progression` |
 | Understand the meta, card usage, rankings, country leaders, or Head-to-Head | `clash-royale-competitive-data` |
-| Discover clans, read balance updates, or use tier lists, brackets, and polls | `clash-royale-community` |
+| Discover clans, read balance updates, use tier lists, brackets, and polls, or find giveaways | `clash-royale-community` |
 | Find a guide, practice drill, minigame, or help with RoyaleTools | `clash-royale-learn-and-practice` |
 | Find an approved creator, pro, or Creator Code | `clash-royale-creators` |
 | Use the Merge Tactics builder or player stats | `clash-royale-merge-tactics` |
