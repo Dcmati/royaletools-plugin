@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.4
+
+Version bump only, with no skill changes. It lets the Claude plugin directory check the plugin again under its current rules.
+
 ## 0.1.3
 
 The skills and route catalog now match RoyaleTools 0.1.3 for the OpenAI plugin directory, which gathers the website's plugin updates of October 24, 27 and 30, 2026. The adaptations listed under 0.1.2 are kept.
